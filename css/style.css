@@ -553,6 +553,7 @@ pre code {
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+    z-index: -1;
   }
 }
 @media (min-width: 992px) {
@@ -1016,6 +1017,7 @@ pre code {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
+    
   }
 
   .row-cols-md-1 > * {
